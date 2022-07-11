@@ -1,0 +1,19 @@
+- Comandos terminal:
+
+Windows:
+cd : change directory - mudar de pasta/diretório
+dir/ls : listar repositórios/pastas
+mkdir : criar diretórios
+del/rmdir : del apaga todos os itens dentro da pasta e rmdir apaga o diretório/pasta
+
+- Primeiros comandos com o GIT
+git init : iniciar repositório do GIT
+git add : mover arquivos
+git add * : adiciona todas as modificações para a staging area
+git commit : criar commits
+ls -a : mostra itens ocultos
+cd  .. : volta para o diretório/pasta anterior
+git status : monitora o status dos arquivos (unmodified, modified, staging area, commit)
+git config --list : comando para exibir configurações do git, username, e-mail etc
+git push origin master : envia o commit
+git pull origin master : puxa as alterações de código feitas no repositório remoto para o repositório local
